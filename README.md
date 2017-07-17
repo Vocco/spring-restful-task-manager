@@ -4,5 +4,5 @@ A simple task managing service to get myself acquainted with the Spring Java Fra
 
 ## TODO List
 
-REFACTOR: reslove duplicate code, expecially in the JavaScript files
+REFACTOR: reslove duplicate code, especially in the JavaScript files
 FEATURE: add time tracking, sorting of tasks (by priority, name, etc.)
