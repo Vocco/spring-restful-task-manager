@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xlmns:th="http://www.thymeleaf.org">
+    <head th:fragment="headerfragment">
+        <title th:text="${PageTitle}"></title>
+        <meta charset="UTF-8" /> 
+        <link rel="stylesheet" href="/main.css" />
+    </head>
+
+    <body th:fragment="bodyfragment">
+
+
+        <div id="tasklist"></div>
+
+        <div id='data_id' th:attr="data-tl_id=${id}" />
+
+        <script src="built/tasklist.js"></script>
+    </body>
+</html>

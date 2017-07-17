@@ -1,0 +1,6 @@
+.git/
+.gradle/
+.nb-gradle/
+build/
+src/main/resource/static/built
+node_modules/
